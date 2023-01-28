@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Times";
+  src: url('fonts/Times-Regular.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Times";
+  src: url('fonts/Times-Bold.woff') format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Times 32";
+  src: url('fonts/Times-Bold-32.woff') format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Times";
+  src: url('fonts/Times-Regular-Italic.woff') format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Times";
+  src: url('fonts/Times-Bold-Italic.woff') format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}

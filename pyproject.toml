@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "letna-space"
+version = "0.1.0"
+description = ""
+authors = ["Martin Rosenberg <nitram.rosenberg@gmail.com>"]
+readme = "README.md"
+packages = [{include = "letna"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = {extras = ["all"], version = "^0.89.1"}
+jinja2 = "^3.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = {version = "^23.1a1", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
